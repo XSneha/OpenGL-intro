@@ -1,3 +1,4 @@
 # OpenGL-intro
 
-basic openGL programs using freeglut.
+basic OpenGL programs using freeglut.
+Download freeglut http://freeglut.sourceforge.net/
