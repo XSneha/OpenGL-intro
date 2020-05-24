@@ -174,14 +174,6 @@ void mouse(int button, int state, int x, int y) {
 
 void timer(int value) {
 	glutTimerFunc(1000, timer, 0);
-	/*time_t now = time(0);
-	tm* ltm = localtime(&now);
-	hour = ltm->tm_hour;
-	minute = ltm->tm_min;
-	second = ltm->tm_sec;
-	hourHand = -((hour * 30) + (0.5 * minute));
-	minuteHand = -((minute * 6) + (0.1 * second));
-	secondHand = -(second * 6;*/
 	secondHand -= 6;
 	if (secondHand == -360) {
 		secondHand = 0;
